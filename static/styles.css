@@ -1,0 +1,53 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.quiz-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.question {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+.start-button, .next-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover, .next-button:hover {
+    background-color: #0056b3;
+}
+
