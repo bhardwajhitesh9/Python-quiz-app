@@ -25,12 +25,19 @@ A simple Flask-based quiz application.
     
     ```
     python3 -m venv venv
+    pip install jinja2
+    pip3 install flask 
+    virtualenv flask
+    pip install virtualenv
+    virtualenv flask
+
     ```
     
 3. Activate the virtual environment:
     
     ```
-    source venv/bin/activate
+    source venv/bin/activate or
+    venv\Scripts\activate
     ```
     
 4. Install dependencies:
@@ -51,6 +58,8 @@ A simple Flask-based quiz application.
 2. Run the Flask application:
     
     ```
+    python -m pip install flask
+    python -m pip list
     python app.py
     ```
     
